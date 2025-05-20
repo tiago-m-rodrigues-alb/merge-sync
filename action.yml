@@ -7,17 +7,16 @@ branding:
   icon: heart
   color: red
 
-# Define your inputs here.
-inputs:
-  milliseconds:
-    description: Your input description here
+  # Define your inputs here.
+  # inputs:
+  GITHUB_TOKEN:
+    description: 'Automatically added token'
     required: true
-    default: '1000'
 
 # Define your outputs here.
-outputs:
-  time:
-    description: Your output description here
+# outputs:
+#   time:
+#     description: Your output description here
 
 runs:
   using: node20
